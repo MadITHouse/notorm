@@ -19,7 +19,7 @@ $user = array(
         'username' => 'testuser',
         'password' => 'hashedpass'
     );
-$insertUser = $db->user()->insert(array);//returns true if inserted.
+$insertUser = $db->user()->insert($user);//returns true if inserted.
 
 ?>
 ```
